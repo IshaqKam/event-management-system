@@ -1,4 +1,4 @@
-# event-management-system
+# Event Management System
 
 # Backend
 Run the project by yarn dev.
