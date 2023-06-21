@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "pages/*": ["./pages/*"],
+      "hooks/*": ["./hooks/*"],
+      "config/*": ["./config/*"],
+      "components/*": ["./components/*"],
+      "interfaces/*": ["./interfaces/*"]
+    },
+    "pretty": true,
+    "strict": true,
+    "noEmit": true,
+    "allowJs": true,
+    "jsx": "preserve",
+    "module": "esnext",
+    "target": "ESNext",
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "allowUnusedLabels": false,
+    "moduleResolution": "node",
+    "allowUnreachableCode": false,
+    "declaration": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "sourceMap": true,
+    "incremental": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,13 @@
+{
+  "root": "/",
+
+  "login": "/login",
+  "register": "/register",
+
+  "events": "/events",
+  "events-view": "/events/view",
+
+  "my-events": "/my-events",
+  "my-events-add": "/my-events/add",
+  "my-events-update": "/my-events/update"
+}
